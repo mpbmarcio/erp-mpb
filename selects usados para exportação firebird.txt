@@ -1,0 +1,65 @@
+------------------------- clientes
+SELECT
+    ID,
+    DATA_INC,
+    DATA_ALT,
+    DATA_NASC,
+    TIPO,
+    NOME,
+    NOMERUA,
+    NUMRUA,
+    BAIRRO,
+    CIDADE,
+    ID_UF,
+    CEP,
+    TELEFONE,
+    RAMAL,
+    FAX,
+    CEL,
+    FANTASIA,
+    CPF,
+    RG,
+    EMAIL,
+    OBS,
+    STATUS
+FROM CLIENTE;
+
+
+------------------------- contas_pagar
+SELECT 
+    ID,
+    ID_FORNECEDOR,
+    DATALANCAMENTO,
+    NUMERODOCUMENTO,
+    DATADOCUMENTO,
+    TOTALPARCELAS,
+    VALORTOTAL,
+    NUMEROPARCELA,
+    VALORPARCELA,
+    DATAVENCIMENTO,
+    LIQUIDADO,
+    DATAPAGAMENTO,
+    VALORPAGO,
+    DATA_INC,
+    DATA_ALT
+FROM CONTAS_PAGAR;
+
+------------------------- fornecedor
+SELECT
+    ID,
+    DATA_INC,
+    DATA_ALT,
+    NOME,
+    CNPJ,
+    IE,
+    CEP,
+    NOMERUA,
+    NUMRUA,
+    BAIRRO,
+    CIDADE,
+    TELEFONE,
+    CEL,
+    CONTATO,
+    EMAIL,
+    WWW
+FROM FORNECEDOR;
