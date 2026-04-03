@@ -18,7 +18,7 @@ public class FornecedorController{
 
     // Endpoint GET /fornecedores
     @GetMapping
-    public List<Fornecedor> listarFornecedores() {
+    public List<Fornecedor> listar() {
         return service.listar();
     }
 }

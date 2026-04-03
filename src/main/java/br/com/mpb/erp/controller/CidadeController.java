@@ -18,7 +18,7 @@ public class CidadeController {
 
     // Endpoint GET /clientes
     @GetMapping
-    public List<Cidade> listarClientes() {
+    public List<Cidade> listar() {
         return service.listar();
     }
 }
