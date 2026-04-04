@@ -22,6 +22,7 @@ public class UF {
     private LocalDate dataInc;
     private LocalDate dataAlt;
     private String regiao;
+    private String sigla;
 
     @OneToMany(mappedBy = "uf")
     private List<Cidade> cidades;
